@@ -1,0 +1,10 @@
+Below are the number of ways present in Java that can be used to take 
+input from the user .
+
+1. Using Scanner Classes 
+2. Using BufferedReader Classes
+3. using Console class 
+4. Using Command Line args 
+5. Using DataInputStream 
+
+for example refer InputOutput.java code 
