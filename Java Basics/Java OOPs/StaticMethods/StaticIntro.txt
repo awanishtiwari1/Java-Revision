@@ -1,0 +1,32 @@
+Definition 
+1. These methods are associated with the class 
+2. can be called with classname .
+3. static methods can not access non static instance variables and methods.
+4. Static methods can not be overridden.
+
+
+
+
+When to declare a method static ??
+
+-> Methods which do not modify the state of the object can be declared as static.
+-> Utility method which do not use any instance variables and computes only on Arguments.
+
+
+Why we can't access non static variables from a static method ??
+-> Since static variables are associated with class and non static variables differs/different 
+    for each object, so it will not be able to call, that's why we call static variables from static
+    methods.
+
+
+Why Static method can't be overridded ??
+
+
+Since Java creates only one copy of Static variables/method, even if we are writing the 
+implementation of a method in child class using @Override annotation then, to us it seems that 
+method is overridden but in actual it is overhidden, because static methods can be called using 
+classname.method()
+
+
+
+Note -> Static methods can be overloaded. 

@@ -1,0 +1,18 @@
+Definition 
+A wrapper class is a class which converts primitive data type to Object known as Autoboxing and vice 
+versa is known as Unboxing.
+
+8 primitive data types we hve 
+int,char,short,byte,long,double,float,boolean.
+
+Integer, Character, Short, Byte , Long , Double , Float, Boolean 
+
+So, the question is why to use/ why we need Wrapper classes???
+-> Since Java does not support call by reference, so if one will pass a primitive
+    data type into a method and do some modification to that then after the method call
+    the value will be vanished since primitive data stored in stack.
+
+
+-> All the Java Collection framework DS supports only objects not primitive data types so we 
+    use wrapper classes.
+     

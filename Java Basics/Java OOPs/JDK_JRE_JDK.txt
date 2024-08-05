@@ -1,0 +1,29 @@
+JVM 
+1. Stands for Java virtual machine
+2. JVM used to convert byte code into machine code 
+3. Plateform dependent .
+
+JRE :
+
+1.Stands for Java Runtime Environment.
+2.It contains JVM and class libraries to run java code.
+3. JRE provides implementation of inbuilt libraries to JVM while processing a java code.
+4.JRE is Plateform dependent.
+5. With JRE you can only run a javacode i.e. only byte code but can't implement/compile a newly code.
+
+JDK :
+1. Stands for Java Development Kit 
+2. It contains info about programming language , compiler, debugger and JRE.
+
+
+Note => JVM, JRE and JDK all 3 are Plateform dependent but the byte code is Plateform independent.
+
+
+
+JSE -> Java Standard Edition (Core Java)
+
+JEE -> Java Enterprise Edition/Jakarta 
+        JSE + API like Transactional, persistance, JSP
+
+JME -> Java Micro.Mobile Edition 
+        contains API for mobile Development

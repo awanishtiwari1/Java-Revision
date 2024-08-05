@@ -1,0 +1,15 @@
+Procedural programming => 
+1. programming is divided into parts called functions.
+2. Does not provide proper way to hide data, gives importance to functions and data moves freely.
+3. overloading is not possible.
+4. Inheritance is not possible.
+5. E.g. C, PASCL 
+
+Object Oriented programming (OOPs)
+
+1. program is divided into Objects.
+2. Objects provide data hiding gives importance to data.
+3. overloading is possible.
+4. Inheritance is possible.
+5. Code reusbality is possible.
+e.g . Java, Python.ss

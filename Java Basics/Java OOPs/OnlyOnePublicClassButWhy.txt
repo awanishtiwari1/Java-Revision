@@ -1,0 +1,12 @@
+Why Java has only one public class ??
+
+
+1. Main method should be inside the public class.
+2. public class name should be same as filename.
+
+=> Since JVM calls the main method which is static, which means it can be access using classname.(dot) and 
+classname should be public so that it can be accessed outside and JVM can access it.
+
+=>  As we already know execution starts from main method, Since a java program can have n number of java classes, so how the compiler would get to 
+    know that in which claa the main method is, so to let the compiler know that main method is 
+    present in this public class we use to keep filename same as public class in java.  
