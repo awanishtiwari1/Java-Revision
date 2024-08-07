@@ -1,0 +1,24 @@
+Enum classes has collections of constants
+Its constants are static and final (Internally)
+It can not extend any java classes as Internally it extends java.lanf.Enum
+It can implement interfaces 
+it can have variables and constructors 
+It can not be instantiated (as its constructor is private only, even if u give default 
+in byte code it will mark it as private
+)
+No other clss can extend Enum class 
+It can have abstract method and all the constant should implement that 
+abstract method.
+
+
+The Major concern is here why to use ENUM what is the benefit od the same when
+we can create constant through static and final keyword.
+
+
+answer -> For better readability and full control over the values passed 
+int the parameter , we can restrict the user to pass a parameter within 
+a range of values, but this would not be [possible] in case we are using 
+static fianl to an instance variables of a class user can pass anything and has 
+no over it.
+
+
